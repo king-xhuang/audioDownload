@@ -33,8 +33,9 @@ public class Da {
     static int count = 0;
     static final String prefix = "安娜·卡列尼娜_";
     static final String suffix = ".mp3";
-    static final String path = "D:/用户目录/下载"; //g:/emule/audio/ana"; //
-    //static final String path = "g:\\emule\\audio\\ana";
+    //static final String path = "D:/用户目录/下载"; //g:/emule/audio/ana"; //
+    static final String path = "g:\\emule\\audio\\ana"; // IMPORT!!!! if you run in windows 7, use regedit.exe and
+    // search key {374DE290-123F-4565-9164-39C4925E467B} and change download dir value to match this.
     public static void main(String[] args) {
         test();
 
